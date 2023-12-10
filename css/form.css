@@ -1,0 +1,58 @@
+/* input form style*/ 
+.form {
+    width: 300px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.input {
+    width: 100%;
+    height: 30px;
+    padding: 0 10px;
+    border:none;
+    border-bottom:1px solid #ccc;
+    outline: 0;
+}
+.js-message{
+    width: 100%;
+    height: 100px; /* Высота на ваш выбор */
+    padding: 0 10px;
+    border:none;
+    border-bottom:1px solid #ccc;
+    outline: 0;
+    transition: border-color 0.3s;
+}
+.input:focus,
+.js-message:focus {
+    border-color: #1ee810;
+     /* Цвет при фокусе */
+}
+
+.input.error {
+    border-color: red;
+}
+
+.input::placeholder {
+    color: #716a6a;
+}
+
+.checkbox-label {
+    user-select: none;
+}
+
+.checkbox-input.error + .checkbox-label {
+    color: red;
+}
+
+.btn {
+    color: #fbfcfe;
+    background-color: #BA4270;
+    height: 48px;
+    width: 272px;
+    font-size: 15px;
+    border-radius: 35px;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
